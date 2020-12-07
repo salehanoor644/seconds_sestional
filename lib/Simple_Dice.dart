@@ -46,8 +46,8 @@ class _SimpleDiceState extends State<SimpleDice> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  Image.asset('images/'+imageArray[randomIntForDiceOne], height: 150, width: 150,),
-                  Image.asset('images/'+imageArray[randomIntForDiceTwo], height: 150, width: 150,),
+                  Image.asset('assets/'+imageArray[randomIntForDiceOne], height: 150, width: 150,),
+                  Image.asset('assets/'+imageArray[randomIntForDiceTwo], height: 150, width: 150,),
                 ],
               ),
               Padding(

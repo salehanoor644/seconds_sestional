@@ -32,13 +32,14 @@ class _HomePageState extends State<HomePage> {
         child: Padding(
             padding: EdgeInsets.all(15.0),
         child: FlatButton(
-          textColor: Colors.black,
-          color: Colors.white,
+          textColor: Colors.pink,
+          color: Colors.black,
           child: Text(
             'Simple',
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 20.0,
+              color: Colors.pink
+              ,
+              fontSize: 50.0,
             ),
           ),
           onPressed: simpleDice,
@@ -51,13 +52,13 @@ class _HomePageState extends State<HomePage> {
     padding: EdgeInsets.all(15.0),
     child: FlatButton(
 
-    textColor: Colors.black,
-    color: Colors.white,
+    textColor: Colors.pink,
+    color: Colors.black,
     child: Text(
     'Hard',
     style: TextStyle(
-    color: Colors.white,
-    fontSize: 20.0,
+    color: Colors.pink,
+    fontSize: 50.0,
     ),
     ),
           onPressed: hardDice,
@@ -79,7 +80,7 @@ class _HomePageState extends State<HomePage> {
                 currentAccountPicture: GestureDetector(
                   onTap: ()=> _showSecondPage(context),
                   child: CircleAvatar(
-                      backgroundImage: AssetImage('images/image.png'),
+                      backgroundImage: AssetImage('assets/image.png'),
                   ),
                 )
             ),
@@ -125,7 +126,7 @@ void hardDice() {
           body: Center(
             child: Hero(
               tag: 'my-hero-animation-tag',
-              child: Image.asset('images/image.png'),
+              child: Image.asset('assets/image.png'),
             ),
           ),
         ),
