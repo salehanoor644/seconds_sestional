@@ -39,10 +39,10 @@ class _MyAppState extends State<MyApp> {
 
         image: new Image.asset('image.png'),
 
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.grey,
         styleTextUnderTheLoader: new TextStyle(),
-        photoSize: 100.0,
-        loaderColor: Colors.red
+        photoSize: 50.0,
+        loaderColor: Colors.pink
     );
   }
 }
