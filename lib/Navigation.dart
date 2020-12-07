@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         title: Text('Dice App'),
       ),
@@ -32,8 +32,8 @@ class _HomePageState extends State<HomePage> {
         child: Padding(
             padding: EdgeInsets.all(15.0),
         child: FlatButton(
-          textColor: Colors.white,
-          color: Colors.green,
+          textColor: Colors.black,
+          color: Colors.white,
           child: Text(
             'Simple',
             style: TextStyle(
@@ -51,8 +51,8 @@ class _HomePageState extends State<HomePage> {
     padding: EdgeInsets.all(15.0),
     child: FlatButton(
 
-    textColor: Colors.white,
-    color: Colors.black,
+    textColor: Colors.black,
+    color: Colors.white,
     child: Text(
     'Hard',
     style: TextStyle(
