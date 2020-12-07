@@ -8,7 +8,7 @@ class _HardDiceState extends State<HardDice> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         title: Text('Hard Dice Roll'),
       ),
