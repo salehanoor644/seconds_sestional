@@ -51,13 +51,13 @@ class _SimpleDiceState extends State<SimpleDice> {
                 ],
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 60),
+                padding: const EdgeInsets.only(top: 70),
                 child: RaisedButton(onPressed: changeImage,
                   child: Text('Roll Dice'),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 60),
+                padding: const EdgeInsets.only(top: 70),
                 child: RaisedButton(onPressed:() {Navigator.pop(context);},
                   child: Text('Exit'),
                 ),
