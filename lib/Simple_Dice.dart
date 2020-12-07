@@ -27,7 +27,7 @@ class _SimpleDiceState extends State<SimpleDice> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-        backgroundColor: Colors.white60,
+        backgroundColor: Colors.lightBlueAccent,
         appBar: AppBar(
           title: Text('Dice Rolling App'),
         ),
